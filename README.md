@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # vuecli-pathological-master
 
 > pathological-master
@@ -28,3 +29,6 @@ npm test
 ```
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+=======
+# vuecli-pathological-master
+>>>>>>> 5d1bf81799576e9875eec76cca0f5e4908a6fc76
