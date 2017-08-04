@@ -1,0 +1,288 @@
+button{
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.color-111{
+    color: #1B223B;
+}
+.borderBtm1-blue{
+    border-bottom: 1px solid @color-blue;
+}
+.width80{
+    width: 80%;
+}
+.width60{
+    width: 60%;
+}
+.paddingX25{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.wrap{
+    margin: 0 auto;
+    width: 1200px;
+}
+.breadNav{
+    height: 65px;
+    padding: 0 20px;
+    line-height: 65px;
+}
+.applyForm{
+    float: left;
+    width: 880px;
+    padding-bottom: 50px;
+    border: 1px solid @color-border;
+    background-color: #fff;
+}
+.applyForm .fileStyle,
+.applyForm .photoStyle{
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+}
+.applyForm .fileStyle{
+    border: none;
+    width: 120px;
+    height: 120px; 
+    background: url(../img/icon-addfile_03.jpg) no-repeat left top;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+.applyForm .photoStyle{
+    border: none;
+    width: 120px;
+    height: 120px; 
+    background: url(../img/icon-addphoto_07.jpg) no-repeat left top;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+.applyForm .formInput-320{
+    .mixin-whb(320px,30px,1px solid @color-border);
+}
+.applyForm .formInput-260{
+    .mixin-whb(260px,30px,1px solid @color-border);
+}
+.applyForm .formInput-110{
+    .mixin-whb(110px,30px,1px solid @color-border);
+}
+.applyForm .formTextarea-510{
+    .mixin-whb(510px,auto,1px solid @color-border);
+}
+.applyForm .formImg-120{
+    .mixin-whb(120px,120px,1px solid transparent);
+}
+.applyForm .exptPhoto{
+    width: 120px;
+    height: 120px; 
+    background: url(../img/icon-addfile_03.jpg) no-repeat left top;
+    background-size: 100% 100%;
+}
+.applyForm .exptdelBtn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    border: none;
+    width: 18px;
+    height: 18px;
+    background: url(../img/icon-redclose_05.jpg) no-repeat;
+    background-size: 100% 100%;
+    cursor: pointer;
+    display: none;
+}
+.applyForm .exptPhoto:hover .exptdelBtn{
+    display: block;
+}
+.applyForm .tabTitleLi{
+    display: inline-block;
+    height: 30px;
+    border-bottom: 2px solid transparent;
+    color: #666;
+    cursor: pointer;
+}
+.applyForm .tabTitleLi.cur{
+    color: @color-blue;
+    border-bottom: 2px solid @color-blue;
+}
+.applyForm .areaEditing{
+    margin-top: 20px;
+    background-color: @bgcolor-body;
+    border-top: 1px solid @color-border;
+    border-bottom: 1px solid @color-border;
+    padding: 20px 20px; 
+}
+
+
+.applyAside{
+    float: right;
+    width: 300px;
+    min-height: 535px;
+    padding: 0 20px;
+    border: 1px solid @color-border;
+    background-color: #fff;
+}
+
+.addrBtn{
+    color: @color-blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.btn-ow{
+    .mixin-btn(80px,auto,5px,10px);
+    background-color: @color-orange;
+    color: #fff;
+    border: 1px solid @color-orange;
+    
+}
+.btn-w6{
+    .mixin-btn(80px,auto,5px,10px);
+    background-color: #fff;
+    color: #666;
+    border: 1px solid #666;
+}
+.btn-bw{
+    .mixin-btn(140px,40px,5px,10px);
+    background-color: @color-blue;
+    color: #fff;
+    border: 1px solid @color-blue;
+}
+.btn-wb{
+    .mixin-btn(140px,40px,5px,10px);
+    background-color: #fff;
+    color: @color-blue;
+    border: 1px solid @color-blue;
+}
+.el-input__inner,
+.el-select .el-input__inner:hover,
+.el-select .el-input__inner:focus{
+    border-color: @color-border;
+    outline: none;
+}
+.el-form-item__label{
+    color: inherit;
+    width: 100px;
+}
+.el-form-item.is-required .el-form-item__label:before{
+    color: @color-red;
+}
+.width660{
+    width: 660px;
+}
+.addrText{
+    white-space: pre-wrap;
+    width: 500px;
+}
+.top7 .el-radio__input{
+    top: 7px;
+}
+
+.radioStyle{
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 7px;
+}
+.radioStyle{
+    margin-top: 2px;
+    width: 16px;
+    height: 16px;
+    background: url(../img/icon-radioNo_03.jpg) no-repeat left top;
+    background-size: 100% 100%;
+}
+.radioStyle.checked{
+    background: url(../img/icon-radioYes_03.jpg) no-repeat left top;
+    background-size: 100% 100%;
+}
+.picWrap .el-form-item__content{
+    padding-left: 100px;
+}
+
+// 遮罩
+.alert-wrapper {
+    width: 100%;
+    height: 100%; 
+    background: rgba(0,0,0,0.2); 
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#33000000,endColorstr=#33000000);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+}
+.alert-seltExpt {
+    position: relative;
+    width: 620px;
+    height: 680px;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    margin-left: -250px@ie8-fixed;
+    margin-top: -340px@ie8-fixed;
+    background: #FFFFFF;
+    overflow: hidden;
+    padding-top: 80px;
+    .close-alert {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        font-size: 30px;
+        color: #1B223B;
+        cursor: pointer;
+    }
+    header{
+        .mixin-whb(100%,80px,1px solid @color-border);
+        padding: 0 60px 0 20px;
+        line-height: 80px;
+        position: fixed;
+        z-index: 2;
+        top: 0;
+        .cur{
+            color: @color-blue;
+        }
+    }
+    section{
+        margin-top: -1px;
+        .mixin-whb(100%,601px,1px solid @color-border);
+        overflow-y: scroll;
+    }
+    .seltexptLi{
+        padding-right: 25px;
+        height: 100px;
+        margin-left: 25px;
+        border-bottom: 1px solid @color-border;
+    }
+    .seltexptLiWrap{
+        cursor: pointer;
+    }
+    .seltexptLiWrap:hover{
+        background-color: @bgcolor-hover;
+    }
+    .proLogo{
+        position: absolute;
+        left: -8px;
+        top: 0;
+    }
+}
+
+.searchDiv{
+    .mixin-whb(270px,40px,1px solid @color-border);
+    border-radius: 3px;
+    padding-right: 30px;
+    position: relative;
+}
+.searchIcon{
+    position: absolute;
+    right: 5px;
+    cursor: pointer;
+}
+.width380{
+    width: 380px;
+}
